@@ -1,5 +1,3 @@
-Below is the GitHub README for Xtract, written with proper Markdown formatting (e.g., bold headers, code blocks, tables) so that it renders correctly when copied and pasted into GitHub.
-markdown
 # **Xtract**
 
 A Python tool to extract JavaScript/JSON files and API endpoints from websites or JavaScript files. Xtract recursively discovers JS files, extracts potential API endpoints using regex patterns, and saves the results in a reusable format.
@@ -23,8 +21,9 @@ A Python tool to extract JavaScript/JSON files and API endpoints from websites o
 ### **Setup**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Xtract.git
+   git clone https://github.com/Hun33er/Xtract.git
    cd Xtract
+   
 Install dependencies:
 bash
 pip install -r requirements.txt
@@ -110,19 +109,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Acknowledgments
 Built with Python, leveraging requests and BeautifulSoup.
 Inspired by web scraping and security research tools.
-
----
-
-### How It Renders on GitHub
-- **`# Xtract`**: Bold, large header.
-- **`## Features`**: Bold, slightly smaller headers for sections.
-- Code blocks (```bash``` and ```): Properly formatted commands and file content.
-- Table (`| Option | Description | Example |`): Neatly aligned command-line options.
-- Lists (`-`): Bulleted items for features and steps.
-
-### Instructions
-1. Save this as `README.md` in your repository root.
-2. Replace `yourusername` in the `git clone` URL with your actual GitHub username.
-3. If you use a different script name (not `xtract.py`), update the references accordingly.
-
-This will display beautifully on GitHub with all formatting intact. Let me know if you need adjustments!
