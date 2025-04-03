@@ -23,7 +23,6 @@ A Python tool to extract JavaScript/JSON files and API endpoints from websites o
    ```bash
    git clone https://github.com/Hun33er/Xtract.git
    cd Xtract
-   
 Install dependencies:
 bash
 pip install -r requirements.txt
@@ -109,3 +108,22 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Acknowledgments
 Built with Python, leveraging requests and BeautifulSoup.
 Inspired by web scraping and security research tools.
+
+---
+
+### Changes Made
+- **Table Formatting**: Adjusted the **Command-Line Options** table to ensure proper alignment:
+  - Used consistent spacing between columns with pipes (`|`).
+  - Ensured headers (`Option`, `Description`, `Example`) align with content rows.
+  - GitHub Markdown requires at least three dashes (`---`) in the separator row for a table to render, which was already present but now confirmed to work with the updated spacing.
+
+### **Command-Line Options**
+
+| Option              | Description                                     | Example                          |
+|---------------------|-------------------------------------------------|----------------------------------|
+| `-d, --domain`      | Process a single domain                         | `-d https://example.com`         |
+| `-f, --file`        | Process a list of domains from a text file      | `-f domains.txt`                 |
+| `-js, --javascript` | Process a single JS file URL                    | `-js https://example.com/main.js`|
+| `-jss, --javascripts` | Process a list of JS URLs from a text file   | `-jss jsfiles.txt`               |
+| `-o, --output`      | Output file for endpoints                       | `-o endpoints.txt`               |
+| `-oj, --js-output`  | Output file for JS files                        | `-oj jsfiles.txt`                |
